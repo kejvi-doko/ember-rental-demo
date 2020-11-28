@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function(environment) {
+module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'super-rentals',
     environment,
@@ -46,6 +46,6 @@ module.exports = function(environment) {
   if (environment === 'production') {
     // here you can enable a production-specific feature
   }
-
+  ENV.MAPBOX_ACCESS_TOKEN = 'pk.eyJ1Ijoia2Vqdmlkb2tvIiwiYSI6ImNqeWx6cDEybzAzbXEzY21vNjF2dnpsY2gifQ.PdnV9d2TeaXfE4YHA0J4Ug'
   return ENV;
 };
